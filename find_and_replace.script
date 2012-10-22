@@ -1,0 +1,2 @@
+# replace a string in a directory on Mac OSX (double quotes is needed for POSIX 1003.1)
+grep -lr 'Sfbulk' /Users/jmao/work/git/sfbulk/ | xargs sed -i "" 's/Sfbulk/Salesforklift/g'
