@@ -1,0 +1,3 @@
+To find/replace a word which includes dash in it:
+ 
+:s/jmao\>-\<lt2/jmao-mba
