@@ -1,0 +1,8 @@
+deflog on
+logtstamp on
+logfile screen/screen-%n-%Y%m%d-%0c.log
+
+log on
+hardstatus alwayslastline
+
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n %t%?(%u)%?%{r})%{g}%?%+Lw%?%?%= %{g}][%{r}%Y-%m-%d %{W}%c %{g}]'
